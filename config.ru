@@ -1,2 +1,4 @@
 require 'app'
-Sinatra::Application.run
+set :run, false
+set :environment, :production
+run Sinatra::Application
