@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'sinatra'
-require 'memcache-client'
 
 configure do
   require 'memcached'
